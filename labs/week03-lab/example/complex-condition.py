@@ -1,3 +1,7 @@
+# arithmetic operators --> +, -, *, /, %, **, //, % ตัวกระทำการทางคณิตศาสตร์
+# comparison operators --> ==, !=, >, <, >=, <= ตัวกระทำการเปรียบเทียบ
+# logical operators --> and (&&), or (||), not (!) ตัวกระทำการเชิงตรรกะ
+
 # Multiple conditions with logical operators
 username = "admin"
 password = "12345"

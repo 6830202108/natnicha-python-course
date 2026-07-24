@@ -9,6 +9,10 @@
 # demo_for_basic.py
 print("=== Demo 1: Basic For Loop ===")
 
+print(range(5))  # แสดงผลเป็น range object
+print(range(1, 5))  # แสดงผลเป็น range object
+print(range(1, 5, 2))  # แสดงผลเป็น range object
+
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
 for i in range(1, 6):
