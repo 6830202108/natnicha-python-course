@@ -75,11 +75,6 @@ print()
 # DEMO 3: Operator Precedence
 # =============================================================================
 
-
-+ - * / // % **
-1. **
-
-
 print("=" * 50)
 print("DEMO 3: Operator Precedence")
 print("=" * 50)
