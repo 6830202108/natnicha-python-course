@@ -1,6 +1,6 @@
 # Empty tuple
-empty_tuple = ()
-another_empty_tuple = tuple()
+empty_tuple = () # ต้องใช้วงเล็บว่างเพื่อสร้าง tuple ว่าง
+another_empty_tuple = tuple() # ถ้าจะแก้ไขฟังก์ชัน tuple() จะต้องใช้ list เพื่อแก้ไขเป็น tuple
 
 # Tuple with values
 coordinates = (10, 20)
