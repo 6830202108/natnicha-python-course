@@ -19,3 +19,28 @@ def calculate_triangle_area(height, base):
 print("Calculating triangle areas:")
 calculate_triangle_area(5, 3)
 calculate_triangle_area(10, 7)
+
+# ------------------------------------------------------------
+# ------------------------------------------------------------
+
+# เขียน function แปลงหน่วยสกุลเงิน ที่สามารถแปลงเงินจาก
+# THB <-> USD .. 1 USD = 32 THB
+
+# โดยใช้ชื่อและการใช้งาน
+# function convert_country(100, "USD)
+
+# แสดงผลออกทางหน้าจอ
+# 1== THB = 3.3 USD
+
+# และทดสอบการใช้งาน function ที่ตัวเองเขียนด้วย
+
+# ------------------------------------------------------------
+
+def convert_country(a, b):
+    if b == "USD":
+        print(f"{a} THB = {a / 32.0:.1f} USD")
+    else:
+        print(f"{a} USD = {a * 32.0:.1f} THB")
+
+convert_country(100, "USD")
+convert_country(100, "THB")
