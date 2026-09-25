@@ -28,7 +28,7 @@ print(rect.get_perimeter())  # Should print 30
 """
 
 class Circle:
-    # ปรับสให้สอดคล้องกับความเป็นวงกลม
+    # ปรับให้สอดคล้องกับความเป็นวงกลม
     def __init__(self, radius):
         self.radius = radius
 
