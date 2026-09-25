@@ -5,10 +5,10 @@ class Car:
     
     def __init__(self, brand, model, year):
         # Instance attributes (unique to each instance)
-        self.brand = brand
-        self.model = model
-        self.year = year
-        self.mileage = 0
+        self.brand = brand # ยี่ห้อรถ
+        self.model = model # รุ่นรถ
+        self.year = year # ปีที่ผลิต
+        self.mileage = 0 # ระยะทางที่ขับเคลื่อน
     
     def drive(self, distance):
         """Method to update mileage"""
@@ -39,3 +39,5 @@ print(car2.get_info())
 # Using methods
 print(car1.drive(100))
 print(car2.drive(250))
+
+print(car1.drive(200)) # เท่ากับการขับรถ car1 อีก 200 km รวมเท่ากับ 100 km ก่อนหน้า จะได้ 300 km
